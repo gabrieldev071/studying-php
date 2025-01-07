@@ -1,0 +1,21 @@
+
+
+ESCALARES
+
+String //letras 
+int ou integer // número inteiro
+float, double ou real // com valor decimal, além disso, real deixou de existir
+bool ou boolean // falsou ou true
+
+
+COMPOSTOS
+
+Array
+object
+
+ESPECIAIS 
+
+null
+resource
+callabe
+mixed

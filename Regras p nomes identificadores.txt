@@ -1,0 +1,30 @@
+Variáveis sempre começam com o simbolo $
+
+O segundo pode ser letra ou o símbolo _
+
+Aceita caracteres [a-z], [A-Z], [0-9], [_]
+
+Aceita caracteres de tabela ASCII a partir de 128
+
+Aceita caracteres acentuados como á, õ, ç
+
+A linguagem é case sensitive em relação aos nomes, isto é, diferença de maiúscula e miniscula. 
+
+Nomes especiais como $this não podem ser usadas
+
+
+Recomendação de nomes: 
+
+Nomes claros e de fácil, idenfiticação
+
+Evite nomes muito curtos ou muito longos 
+
+Defina um padrão e siga em todo projeto
+
+Para variáveis, dê preferência a letras minúsculas
+
+Para constantes, dê preferência a letras maiúsculas
+
+Use camelCase para métodos e atribudos
+
+Use SNAKE_CASE para nomear constantes 

@@ -1,0 +1,43 @@
+
+//Double quoted interpreta o conteúdo, por exemplo: "PHP \u{1F418}" (EMOJI)
+
+double quoted = "Curso" 
+
+concatenation operator = .
+
+Exemplo: "Curso " . "PHP" = "Curso PHP"
+
+single quoted = 'PHP \u{1F418}' = PHP \u{1F418}
+
+Link: https://www.youtube.com/watch?v=Vn1PGAfnG_s&list=PLHz_AreHm4dlFPrCXCmd5g92860x_Pbr_&index=22
+
+
+ESCAPES SEQUENCES
+
+\n Nova linha
+\t Tabulação horizontal
+\\ Barra invertida
+\$ Sinal de cifrão
+\u{} Codepoint Unicode
+
+SINTAX HEREDOC // TEM INTERPRETAÇÃO
+
+        $curso = "PHP";
+        $ano = date('Y');
+        echo "<br>";
+        echo <<< FRASE
+            Estou estudando 
+                PHP em 
+                    2025
+        FRASE;
+
+SINTAX NOWDOC
+
+        $curso = "PHP";
+        $ano = date('Y');
+        echo "<br>";
+        echo <<< 'FRASE'
+            Estou estudando 
+                $curso em 
+                    $ano
+        FRASE;
