@@ -1,0 +1,19 @@
+{
+    "name": "gabrielsouza/curso-poo-php",
+    "description": "Curso completo sobre POO com PHP",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gabrielsouza\\CursoPooPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabriel Souza",
+            "email": "106005629+gabrieldev071@users.noreply.github.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^7.2"
+    }
+}
